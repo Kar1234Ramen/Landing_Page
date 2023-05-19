@@ -14,7 +14,8 @@
 .header{
     display: flex;
     flex-direction: column;
-    background-color: #363636;
+    background-color: #1F2937;
+    padding-bottom: 120px;
 }
 
 .headerTop{
@@ -23,10 +24,42 @@
     justify-content: space-between;
 }
 
+.headerLeft>h1{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 17px;
+    
+}
+
+.headerLeft>p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .headerBottom{
     padding: 30px 4rem;
     color: white;
     display: flex;
+    flex: 1;
+}
+
+.headerLeft > button{
+    color: white;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1px solid #3882F6;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.headerLeft{
+    padding-right: 100px;
 }
 
 ul{
@@ -35,28 +68,41 @@ ul{
 }
 
 li{
-    padding-left: 12px;
+    padding-left: 20px;
+    font-size: 18px;
 }
 
 li a{
     text-decoration: none;
-    color: white;
+    color: #E5E7EB;
+}
+
+.headerright>img{
+    width: 500px;
+    height: auto;
 }
 
 .container1 > h2{
     text-align: center;
     padding: 16px;
+    font-size: 36px;
+    font-size: bolder;
+    color: #1F2937;
 }
 
 .container101{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+    
 }
 
 .info-img {
-    height: 100px;
-    width: 100px;
+    height: 175px;
+    width: 200px;
     border-radius: 10px;
+    border: 3px solid #3882F6;
+    margin:5px 20px 0px;
 }
 
 .info{
@@ -64,22 +110,37 @@ li a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 248px;
+    max-height: 267.5px;
+    padding:16px;
+    font-size: 17px;
 }
 
 .info > p{
     text-align: center;
     padding:16px;
     padding-top: 0px;
+    margin-top: 5px;
+    font-weight: bold;
 }
 
 .container2{
-    background-color: #363636;
+    background-color: #E5E7EB;
     color: aliceblue;
-    padding: 8px 8rem 8px 8rem;
+    padding: 70px 8rem 8px 8rem;
 }
 
+.container2 > .quote{
+    color: #1F2937;
+    font-size: 25px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+
+
 .container1{
-    padding: 8px 8rem 0px 8rem;
+    padding: 40px 64px 60px 64px;
 }
 
 .footer{
@@ -89,7 +150,7 @@ li a{
 
 .footerInner{
     padding: 32px 4rem;
-    background-color: #5e68eb;
+    background-color:#3882F6;
     display: flex;
     justify-content:space-between;
     align-items: end;
@@ -99,12 +160,35 @@ li a{
 
 .footerInner .left> h2{
     margin:0px;
+    padding-bottom: 2px;
 }
 
 .container2 .author{
     text-align: end;
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 21px;
 } 
 
 .footer .left > p{
     margin: 0px;
+}
+
+.right>button{
+    color: white;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1px solid white;
+    font-weight: bolder;
+}
+
+.bottom{
+    text-align: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 1px;
 }
