@@ -4,6 +4,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .logo{
     flex:0 0 auto;
     width: 35px;
@@ -16,6 +21,8 @@
     flex-direction: column;
     background-color: #1F2937;
     padding-bottom: 120px;
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
 
 .headerTop{
@@ -94,7 +101,6 @@ li a{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
 }
 
 .info-img {
@@ -127,7 +133,7 @@ li a{
 .container2{
     background-color: #E5E7EB;
     color: aliceblue;
-    padding: 70px 8rem 8px 8rem;
+    padding: 70px 15rem 8px 15rem;
 }
 
 .container2 > .quote{
